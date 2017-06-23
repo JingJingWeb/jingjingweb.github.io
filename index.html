@@ -1,20 +1,744 @@
----
-layout: default
----
+<html class=" js flexbox canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]--><head>
+    <title>王笑&amp;刘晶晶的婚礼邀请</title>
 
-<div class="home">
 
-  <h1>Posts</h1>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="cleartype" content="on">
+<meta name="StaticURL" content="http://cdn.story.wedfairy.com/assets/">
+<meta name="APIRoot" content="http://api.wedfairy.com/api/">
+<meta name="WedfairyHost" content="http://www.wedfairy.com">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://cdn.static.wedfairy.com/images/touch/touch-icon-red-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://cdn.static.wedfairy.com/images/touch/touch-icon-red-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://cdn.static.wedfairy.com/images/touch/touch-icon-red-72.png">
+<link rel="apple-touch-icon-precomposed" href="http://cdn.static.wedfairy.com/images/touch/touch-icon-red-57.png">
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<link rel="shortcut icon" sizes="196x196" href="http://cdn.static.wedfairy.com/images/logo-transparent-196.png">
+<link rel="shortcut icon" href="http://cdn.static.wedfairy.com/images/logo-transparent-128.png">
+
+<!-- Tile icon for Win8 (144x144 + tile color) -->
+<meta name="msapplication-TileImage" content="http://cdn.static.wedfairy.com/images/touch/apple-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileColor" content="#222222">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="">
+
+
+    <link rel="stylesheet" href="http://cdn.static.wedfairy.com/stylesheets/iconfont.css?v=1497930582938">
+    <link rel="stylesheet" href="http://cdn.story.wedfairy.com/assets/stylesheets/bootstrap-custom.css?v=1497930582938">
+
+<link rel="stylesheet" href="http://cdn.static.wedfairy.com/stylesheets/ift.css?v=1497930582938">
+<link rel="stylesheet" href="http://cdn.static.wedfairy.com/stylesheets/font-awesome.css?v=1497930582938">
+
+<link rel="stylesheet" href="http://cdn.static.wedfairy.com/stylesheets/animate.min.css">
+<link rel="stylesheet" href="http://cdn.static.wedfairy.com/stylesheets/amour.css">
+
+<link rel="stylesheet" href="http://cdn.story.wedfairy.com/assets/stylesheets/amour-mobile.css?v=1497930582938">
+
+
+
+    <link rel="stylesheet" href="http://cdn.story.wedfairy.com/assets/stylesheets/storytell.css?v=1497930582938">
+
+
+    <link rel="stylesheet" href="http://cdn.story.wedfairy.com/assets/themes/floral/main.css?v=1497930582938">
+
+
+
+
+
+    <style></style>
+
+    <!--[if lt IE 9]>
+<script>
+    location.href = 'http://browsehappy.com/';
+</script>
+<![endif]-->
+
+
+
+    <script src="https://beacon.errorception.com/542430d6105c8f4d780000c2.js" async=""></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://dn-growing.qbox.me/vds.js"></script><script src="https://hm.baidu.com/hm.js?4fd101ad0b2d0f1b67bb106a39496907"></script><script>
+        if (window == window.top &&
+            !/iPhone|Android|iPad|Windows Phone/i.test(navigator.userAgent) &&
+            location.hash != '#fs') {
+            var match = window.location.pathname.match(/^\/story\/(\w+)\/?$/);
+            window.location.href = '/desktop?story=' + match[1] + '&url=' + encodeURIComponent(window.location.href);
+        }
+    </script><script type="text/javascript">try {
+var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
+var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
+var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
+var AG_each = function(selector, fn) { if (!document.querySelectorAll) return; var elements = document.querySelectorAll(selector); for (var i = 0; i < elements.length; i++) { fn(elements[i]); }; };
+var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
+} catch (ex) { console.error('Error executing AG js: ' + ex); }</script>
+
+
+
+<script>
+    window['amour-disable-error-reporting'] = true;
+    (function(_,e,rr,s){_errs=[s];var c=_.onerror;_.onerror=function(){var a=arguments;_errs.push(a);
+    c&&c.apply(this,a)};var b=function(){var c=e.createElement(rr),b=e.getElementsByTagName(rr)[0];
+    c.src="https://beacon.errorception.com/"+s+".js";c.async=!0;b.parentNode.insertBefore(c,b)};
+    _.addEventListener?_.addEventListener("load",b,!1):_.attachEvent("onload",b)})
+    (window,document,"script","542430d6105c8f4d780000c2");
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?4fd101ad0b2d0f1b67bb106a39496907";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script>
+    var _vds = _vds || [];
+    window._vds = _vds;
+    (function(){
+        _vds.push(['setAccountId', '96a703afaf1448a48a81a170201e816b']);
+        (function() {
+            var vds = document.createElement('script');
+            vds.type='text/javascript';
+            vds.async = true;
+            vds.src = 'https://dn-growing.qbox.me/vds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(vds, s);
+        })();
+    })();
+</script>
+
+
+
+    <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-50146907-4', 'auto');
+    ga('create', 'UA-50146907-8', 'auto', 'userFlow');
+    ga('send', 'pageview');
+</script>
+
+
+    <script src="http://cdn.static.wedfairy.com/javascripts/vendor/modernizr-2.7.1.min.js"></script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body data-theme="floral">
+
+<!-- The story begins here -->
+
+<div id="global-banner"></div>
+
+
+<div id="global-footer">
+    <div class="made-with-love text-center">
+        <span class="made-with-love-text">MADE WITH LOVE BY</span>
+        <span class="ift ift-logo-brand"></span>
+    </div>
+</div>
+
+<div id="global-viewport" class="" style="height: 989px;">
+    <div class="views-wrapper" data-style-color="red"><section id="view1736361" class="view view-weddinghero" data-style-layout="center" data-style-color="white" data-style-type="simple">
+<div class="wellbox">
+    <div class="weddinghero-wrapper">
+        <div class="img img-contain wedding-flower" data-bg-src="themes/floral/images/deco/weddinghero/wedding-flower.png" style="background-image: url(&quot;http://cdn.story.wedfairy.com/assets/themes/floral/images/deco/weddinghero/wedding-flower.png&quot;);"></div>
+        <div class="img img-contain wedding-words" data-bg-src="themes/floral/images/deco/weddinghero/wedding-words.png" style="background-image: url(&quot;http://cdn.story.wedfairy.com/assets/themes/floral/images/deco/weddinghero/wedding-words.png&quot;);"></div>
+        <div class="date-and-time text-center">
+            <h4>2017年7月15日 10:18</h4>
+        </div>
+        <div class="img wedding-wishes" data-bg-src="themes/floral/images/deco/weddinghero/wedding-wishes.png" style="background-image: url(&quot;http://cdn.story.wedfairy.com/assets/themes/floral/images/deco/weddinghero/wedding-wishes.png&quot;);"></div>
+
+
+        <address class="text-center" data-editable="text" data-key="address">
+            <p>安新·天王山酒店</p>
+        </address>
+    </div>
+</div>
+</section><section id="view1736371" class="view view-photo" data-style-layout="margin" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="photo-wrapper">
+        <img class="photo" data-toggle="lightbox" data-editable="image" data-key="photo" data-src="http://up.img.8yinhe.cn/o_1bi9beo2b1je115748ikoj5nu4j.jpg?imageMogr2/thumbnail/!1000x750r/crop/!1000x750a0a0" src="http://up.img.8yinhe.cn/o_1bi9beo2b1je115748ikoj5nu4j.jpg?imageMogr2/thumbnail/!1000x750r/crop/!1000x750a0a0|imageView2/2/w/640">
+    </div>
+</div>
+<div class="img img-contain section-deco hidden"></div>
+</section><section id="view1736393" class="view view-gallery" data-style-layout="carousel" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="gallery-wrapper">
+         <div class="viewport">
+            <div class="scroll carousel" style="width: 357.75px;">
+                <div class="scroll-inner clearfix" style="width: 1431px; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(1, 1, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bibd40mhpjt28k2dr2356ul7.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.0" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bibd40mhpjt28k2dr2356ul7.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bibd58p1vsr101d1vob1cklilnv.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.1" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bibd58p1vsr101d1vob1cklilnv.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bibd4d36sdm7rjmsekk08ncf.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.2" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bibd4d36sdm7rjmsekk08ncf.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bibd5nk5cr2n2t1f331mhp1u1k17.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.3" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bibd5nk5cr2n2t1f331mhp1u1k17.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                </div>
+                <div class="blank-block"></div>
+            </div>
+        </div>
+            </div>
+</div>
+</section><section id="view1736362" class="view view-article" data-style-layout="center" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="article-wrapper">
+            <h1 class="title" data-editable="title" data-key="title">有爱不煽情 记得涂防晒😎</h1>
+        <article data-editable="text" data-key="article">
+            <div>不是所有的花都代表爱情</div>
+            <div>除了玫瑰</div>
+            <div>不是所有的人都适合共度一生</div>
+            <div>除了那个对的人</div>
+            <div>如果命运是一个巨大的齿轮</div>
+            <div>那它一定会再次来到似曾相识的地方</div>
+            <div>续写它喜欢的美丽童话</div>
+            <div>今天的新人就是这样的</div>
+            <div>青梅公主与竹马王子😍</div>
+            <div>愿得一人心 白首不相离</div>
+            <div>我们的爱情需要你&amp;们 共同见证</div>
+            <div> 🍻🍻🍻</div>
+        </article>
+    </div>
+    <footer></footer>
+</div>
+</section><section id="view1736382" class="view view-gallery" data-style-layout="carousel" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="gallery-wrapper">
+         <div class="viewport">
+            <div class="scroll carousel" style="width: 357.75px;">
+                <div class="scroll-inner clearfix" style="width: 1431px; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(1, 1, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bias9hsqqea1j9h1fr7tjhvqu7.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.0" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bias9hsqqea1j9h1fr7tjhvqu7.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bib272k81l7o1m3nrkm3or9re1p.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.1" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bib272k81l7o1m3nrkm3or9re1p.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bib1svd3uifiui1fk31u511dhpj.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.2" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bib1svd3uifiui1fk31u511dhpj.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bibce0pf13mhpmlje61l2v1nmi7.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.3" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bibce0pf13mhpmlje61l2v1nmi7.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                </div>
+                <div class="blank-block"></div>
+            </div>
+        </div>
+            </div>
+</div>
+</section><section id="view1736363" class="view view-people" data-style-layout="columns" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="people-wrapper">
+        <div class="people-item-wrapper">
+            <div class="people-item">
+                <div class="avatar img" data-bg-src="http://up.img.8yinhe.cn/o_19siluu0mjrk2h418jd116n9mn7.jpg" data-toggle="lightbox" data-editable="image" data-key="people.0.avatar" data-aspect-ratio="1:1" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_19siluu0mjrk2h418jd116n9mn7.jpg?imageView2/2/w/640&quot;);"></div>
+                <div class="name" data-editable="title" data-key="people.0.name">新郎</div>
+                <article class="about" data-editable="text" data-key="people.0.about">
+                    <div>曾经有个音乐梦</div>
+                    <div>辞职开间咖啡馆</div>
+                    <div>改变生活要创业</div>
+                    <div>放下一切去旅行</div>
+                    <div>经历了种种迷茫的他</div>
+                    <div>终于</div>
+                    <div>找到了属于自己的归宿</div>
+                    <div>在她的心里 </div>
+                    <div>他是个敢想敢做 </div>
+                    <div>温柔细腻有担当的男孩</div>
+                    <div>值得终身相伴的人</div>
+                </article>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="people-item-wrapper">
+            <div class="people-item">
+                <div class="avatar img" data-bg-src="http://up.img.8yinhe.cn/o_19silvb257gi10aptejidq1hdsf.jpg" data-toggle="lightbox" data-editable="image" data-key="people.1.avatar" data-aspect-ratio="1:1" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_19silvb257gi10aptejidq1hdsf.jpg?imageView2/2/w/640&quot;);"></div>
+                <div class="name" data-editable="title" data-key="people.1.name">新娘</div>
+                <article class="about" data-editable="text" data-key="people.1.about">
+                    <div>上学时的乖乖女</div>
+                    <div>工作中的八爪鱼</div>
+                    <div>习惯了平稳生活的她</div>
+                    <div>从上海到北京</div>
+                    <div>因为爱充满勇气</div>
+                    <div>决定与他去看不一样的世界</div>
+                    <div>在他的心里</div>
+                    <div>能与善良智慧的她度过一生</div>
+                    <div>是最幸福最浪漫的事</div>
+                </article>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+</section><section id="view1736364" class="view view-timeline" data-style-layout="center" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="timeline-wrapper">
+        <div class="timeline-item-wrapper">
+            <div class="timeline-item">
+                    <div class="title" data-editable="title" data-key="timeline.0.title">Hey~my dear friend！🌝</div>
+                        <img class="timeline-img" data-src="http://up.img.8yinhe.cn/o_1bib6a91bd2feb61u4kl317po17.jpg" data-toggle="lightbox" data-editable="image" data-key="timeline.0.image" src="http://up.img.8yinhe.cn/o_1bib6a91bd2feb61u4kl317po17.jpg?imageView2/2/w/640">
+                    <article class="text" data-editable="text" data-key="timeline.0.text">
+                        <div>哈哈 万万没想到 今天的新郎是你</div>
+                        <div>当你说出“我爱你” 记得我下巴和眼泪哪个先掉下来不😄</div>
+                    </article>
+            </div>
+        </div>
+        <div class="timeline-item-wrapper">
+            <div class="timeline-item">
+                    <div class="title" data-editable="title" data-key="timeline.1.title">Hey~my fisrt love！😛</div>
+                        <img class="timeline-img" data-src="http://up.img.8yinhe.cn/o_1bib52o571ovb2m1or116te17q3j.jpg" data-toggle="lightbox" data-editable="image" data-key="timeline.1.image" src="http://up.img.8yinhe.cn/o_1bib52o571ovb2m1or116te17q3j.jpg?imageView2/2/w/640">
+                    <article class="text" data-editable="text" data-key="timeline.1.text">
+                        <div>哈哈 我也没想到 今天的新娘是你 </div>
+                        <div>当我还不知道什么是爱情的时候 我觉得你长得真好看</div>
+                        <div>当我在寻找自己时 想到爱情这个课题 你浮现在了我的脑海😄</div>
+                    </article>
+            </div>
+        </div>
+        <div class="timeline-item-wrapper">
+            <div class="timeline-item">
+                    <div class="title" data-editable="title" data-key="timeline.2.title">Hey~my darling！❤️</div>
+                        <img class="timeline-img" data-src="http://up.img.8yinhe.cn/o_1bib2u97v1gfd1tvr1btj1a2mmo17.jpg" data-toggle="lightbox" data-editable="image" data-key="timeline.2.image" src="http://up.img.8yinhe.cn/o_1bib2u97v1gfd1tvr1btj1a2mmo17.jpg?imageView2/2/w/640">
+                    <article class="text" data-editable="text" data-key="timeline.2.text">
+                        <div>嗨 亲爱的你 今天我们结婚了 </div>
+                        <div>命运让我们在彼此身边潜伏了15年</div>
+                        <div>为的是让我们更好的陪伴彼此度过余生</div>
+                        <div></div>
+                    </article>
+            </div>
+        </div>
+        <div class="timeline-item-wrapper">
+            <div class="timeline-item">
+                    <div class="title" data-editable="title" data-key="timeline.3.title">功臣✈️✈️✈️</div>
+                        <img class="timeline-img" data-src="http://up.img.8yinhe.cn/o_1bib6l0lbdedsvjoth12k8fte1f.png?imageMogr2/thumbnail/!750x1000r/crop/!750x1000a0a68" data-toggle="lightbox" data-editable="image" data-key="timeline.3.image" src="http://up.img.8yinhe.cn/o_1bib6l0lbdedsvjoth12k8fte1f.png?imageMogr2/thumbnail/!750x1000r/crop/!750x1000a0a68|imageView2/2/w/640">
+                    <article class="text" data-editable="text" data-key="timeline.3.text">
+                        <div>在一起的200多天 异地200天</div>
+                        <div>嗖嗖嗖的✈️✈️✈️是我们相爱的见证和功臣</div>
+                        <div>谢谢亲爱的闫先生</div>
+                        <div>用强大的行动力实现了你对我们爱情的许诺</div>
+                        <div>让我体验了最甜蜜的异地恋</div>
+                    </article>
+            </div>
+        </div>
+        <div class="timeline-item-wrapper">
+            <div class="timeline-item">
+                    <div class="title" data-editable="title" data-key="timeline.4.title">NEVER ENDS</div>
+                        <img class="timeline-img" data-src="http://up.img.8yinhe.cn/o_1bib22cpl1vlrnn92nt7fa1kct15.jpg" data-toggle="lightbox" data-editable="image" data-key="timeline.4.image" src="http://up.img.8yinhe.cn/o_1bib22cpl1vlrnn92nt7fa1kct15.jpg?imageView2/2/w/640">
+                    <article class="text" data-editable="text" data-key="timeline.4.text">
+                        <div>亲爱的婗婗，在一起的时间不算长，在一起做的重大决定却不算少，让我们走到一起的心更加坚定，无论有什么问题摆在我们面前，我们都共同面对，彼此相伴，互相支持，誓言在继续……</div>
+                    </article>
+            </div>
+        </div>
+    </div>
+</div>
+</section><section id="view1736365" class="view view-photo" data-style-layout="margin" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="photo-wrapper">
+        <img class="photo" data-toggle="lightbox" data-editable="image" data-key="photo" data-src="http://up.img.8yinhe.cn/o_1bib8mre312co1frv15sl1jfo1j31f.jpg" src="http://up.img.8yinhe.cn/o_1bib8mre312co1frv15sl1jfo1j31f.jpg?imageView2/2/w/640">
+    </div>
+</div>
+<div class="img img-contain section-deco hidden"></div>
+</section><section id="view1736366" class="view view-article" data-style-layout="center" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="article-wrapper">
+            <h1 class="title" data-editable="title" data-key="title">Wedding</h1>
+        <article data-editable="text" data-key="article">
+            <div>婚礼的主题是"陪你度过漫长岁月"</div>
+            <div>7月盛夏 青山草坪 </div>
+            <div>新郎和新娘将在各位嘉宾的见证下</div>
+            <div>分别说出一生唯一的一次"我愿意"</div>
+            <div>爱哭的新娘可能会落泪</div>
+            <div>所以我们跳过了所有煽情环节</div>
+            <div>调皮的新郎会想办法逗新娘笑的～</div>
+            <div>我们的婚礼，不会是你见过最盛大的婚礼，不会是最豪华的婚礼，但是，请留心婚礼上的每一个小细节，它们或许不够完美，但却凝结了我们所有的小心思。</div>
+        </article>
+    </div>
+    <footer></footer>
+</div>
+</section><section id="view1736367" class="view view-gallery" data-style-layout="carousel" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="gallery-wrapper">
+         <div class="viewport">
+            <div class="scroll carousel" style="width: 357.75px;">
+                <div class="scroll-inner clearfix" style="width: 1788.75px; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(1, 1, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bib915gb1mbh60fcee1tj49lq1f.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.0" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bib915gb1mbh60fcee1tj49lq1f.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bib8tsuaan17ct1uge50rp8a17.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.1" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bib8tsuaan17ct1uge50rp8a17.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bib8tle31i8a1vbv1hea1671l2rv.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.2" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bib8tle31i8a1vbv1hea1671l2rv.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bib8tdqi1h7rrnq4ir25brlhn.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.3" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bib8tdqi1h7rrnq4ir25brlhn.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                        <div class="photo-item pull-left" style="width: 357.75px; transform: scale3d(0.8, 0.8, 1);">
+                            <div class="img img-contain photo" data-aspect-ratio="4:3" data-bg-src="http://up.img.8yinhe.cn/o_1bib8ild91k03omrgc5f7psc17.jpg" data-toggle="lightbox" data-editable="image" data-key="photos.4" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_1bib8ild91k03omrgc5f7psc17.jpg?imageView2/2/w/640&quot;);"></div>
+                        </div>
+                </div>
+                <div class="blank-block"></div>
+            </div>
+        </div>
+            </div>
+</div>
+</section><section id="view1736369" class="view view-article" data-style-layout="center" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="article-wrapper">
+            <h1 class="title" data-editable="title" data-key="title">Send Wishes</h1>
+        <article data-editable="text" data-key="article">
+            <div>感谢我们的爸爸妈妈，是你们给予了我们一切，给我们最大的支持和无条件的爱～感谢在我们的婚礼筹备中亲人、朋友的鼎力相助～感谢跟张小猫两口子咱们四个的缘分，互相守护二十多年，太神奇～感谢树哥和丸子将在婚礼前一天从日本和上海飞来北京做我们的伴郎伴娘，和你们的友情也让我们相信一切都是命中注定～感谢何总、刘哥你们的前后帮忙、给我们一场梦想中的婚礼～感谢即将前来参加我们婚礼的您，给我们最美好的祝福～</div>
+        </article>
+    </div>
+    <footer></footer>
+</div>
+</section><section id="view1736370" class="view view-article" data-style-layout="center" data-style-color="white" data-style-type="flower">
+<div class="wellbox">
+    <header></header>
+    <div class="article-wrapper">
+            <h1 class="title" data-editable="title" data-key="title">怎么过来</h1>
+        <article data-editable="text" data-key="article">
+            <div>八仙过海，各显神通，如果您与我们在同一个城市：</div>
+            <div>公交车493/943路朝凤庵村站，公交车886/743路军都度假村站，下车后沿水库路前行，朝凤北路右转，步行路程约800米。</div>
+            <div>如果驾车前往，酒店设有停车场。</div>
+            <div>如果您从其他城市来: 🚄✈️🚢</div>
+            <div>如果您从国外来: 先回到中国，无论你在巴黎，在伦敦，在纽约，还是在斯德哥尔摩，都请先回国咯～🤗🤗</div>
+            <div></div>
+        </article>
+    </div>
+    <footer></footer>
+</div>
+</section></div>
+    <div id="global-storyapps">
+    <div class="apps-list even"><div class="app-item">
+    <div class="app-content">
+        <div class="img app-logo" data-bg-src="http://up.img.8yinhe.cn/o_19vtbnvdnl1s1gheoat1fufph8d.png" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_19vtbnvdnl1s1gheoat1fufph8d.png?imageView2/2/w/640&quot;);"></div>
+        <div class="action-title">
+            <span>查看地图</span>
+        </div>
+        <div class="app-title">
+            <span>地图</span>
+        </div>
+    </div>
+</div><div class="app-item">
+    <div class="app-content">
+        <div class="img app-logo" data-bg-src="http://up.img.8yinhe.cn/o_19vtbnvdmi1d1n0a18kl1lkeu1ca.png" style="background-image: url(&quot;http://up.img.8yinhe.cn/o_19vtbnvdmi1d1n0a18kl1lkeu1ca.png?imageView2/2/w/640&quot;);"></div>
+        <div class="action-title">
+            <span>我要参加</span>
+        </div>
+        <div class="app-title">
+            <span>宾客</span>
+        </div>
+    </div>
+</div></div>
+</div>
 
 </div>
+<!-- The story ends -->
+
+
+
+<div id="global-menu" class="">
+    <div class="menu-container clearfix">
+        <div class="menu pull-left">
+            <span class="menu-btn-text">我也要制作</span>
+            <a class="btn-subscribe menu-btn btn btn-link" href="http://www.wedfairy.com/?from=storytellmenu">
+                <span class="ift ift-pencil-underline-o"></span>
+            </a>
+        </div>
+        <div class="menu pull-right">
+            <span class="menu-btn-text">更多</span>
+            <span class="menu-btn btn btn-link" type="button" data-toggle="dropdown">
+                <span class="ift ift-ellipsis-h"></span>
+                <!-- <span class="red"></span> -->
+            </span>
+            <ul class="dropdown-menu">
+                <li>
+                    <a data-toggle="share" data-target="hybrid" class="hidden">
+                        <i class="ift ift-lg ift-fw ift-share-square"></i> 分享故事</a>
+                </li>
+                <li>
+                    <a data-toggle="share" data-target="wechat">
+                        <i class="ift ift-lg ift-fw ift-weixin"></i> 分享到微信</a>
+                </li>
+                <li>
+                    <a data-toggle="share" data-target="weibo">
+                        <i class="ift ift-lg ift-fw ift-weibo"></i> 分享到微博</a>
+                </li>
+                <li>
+                    <a data-toggle="share" data-target="qrcode">
+                        <i class="ift ift-lg ift-fw ift-qrcode"></i> 生成二维码</a>
+                </li>
+                <li>
+                    <a href="http://www.wedfairy.com/?from=storytellmenu">
+                        <i class="ift ift-lg ift-fw ift-logo"></i> 关于八音盒</a>
+                </li>
+                <li>
+                    <a data-toggle="mute">
+                        <i class="ift ift-lg ift-fw ift-volume-off"></i> 静音</a>
+                    <a data-toggle="unmute" class="hidden">
+                        <i class="ift ift-lg ift-fw ift-volume-up"></i> 打开音乐</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu pull-right">
+            <span class="menu-btn-text">评论 (<span class="message-count">3</span>)</span>
+            <span class="menu-btn btn btn-link" data-toggle="messagebox">
+                <span class="ift ift-comment-square-o"></span>
+                <span class="red"></span>
+            </span>
+        </div>
+        <div class="menu pull-right">
+            <span class="menu-btn-text">赞 (<span class="like-count">1</span>)</span>
+            <span class="menu-btn btn btn-link" data-toggle="like">
+                <span class="ift ift-heart-o"></span>
+                <span class="ift ift-heart"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+<div id="lightbox" class="hidden">
+    <div class="img img-contain"></div>
+</div>
+
+
+<div id="messagebox" class="modalview">
+    <div class="modalview-head">
+        <header class="header-navbar">
+            <div class="navbar-body">
+                <span class="navbar-title">留言</span>
+            </div>
+            <div class="btn btn-link pull-left" data-dismiss="modalview">
+                <i class="ift ift-arrow-left"></i>
+            </div>
+        </header>
+    </div>
+    <div class="modalview-body">
+        <div class="messages"><div class="message-item">
+    <div class="avatar img" data-bg-src="http://wx.qlogo.cn/mmopen/bmP7ibCColQk0OG6UaC3pVk35QU7tt4BXPs9Zflqcg18w1LcXRmslbJln7Sw1K92JYpdPu4S0chIumpeMexXJbH09LYDWHCxB/0" style="background-image: url(&quot;http://wx.qlogo.cn/mmopen/bmP7ibCColQk0OG6UaC3pVk35QU7tt4BXPs9Zflqcg18w1LcXRmslbJln7Sw1K92JYpdPu4S0chIumpeMexXJbH09LYDWHCxB/0&quot;);"></div>
+    <div class="name">
+        <span>陈@Rainy</span>
+    </div>
+    <div class="content">
+        <span>早生贵子，百年好合</span>
+    </div>
+    <div class="timestamp">2017-06-13 18:51</div>
+</div><div class="message-item">
+    <div class="avatar img" data-bg-src="http://wx.qlogo.cn/mmopen/eHEMOF2hOemnL6ibwLmzviatMILyDcZdoB3AkAUJXfoPII4y4kajqPeEwsD6pyoD4yWsZdJpEJxXowQtkh75jZwA/0" style="background-image: url(&quot;http://wx.qlogo.cn/mmopen/eHEMOF2hOemnL6ibwLmzviatMILyDcZdoB3AkAUJXfoPII4y4kajqPeEwsD6pyoD4yWsZdJpEJxXowQtkh75jZwA/0&quot;);"></div>
+    <div class="name">
+        <span>程会计</span>
+    </div>
+    <div class="content">
+        <span>郎才女貌，百年好合</span>
+    </div>
+    <div class="timestamp">2017-06-13 18:38</div>
+</div><div class="message-item">
+    <div class="avatar img" data-bg-src="http://wx.qlogo.cn/mmopen/RRKCicPoeiaLyssUowINicD8eW0cdX7iaqicpQDjFZkEibCcureTsm057SwiaB1kTSheKyXwhHVPjeowvgUlLSpQfiaAhfVcjNHkMAB3/0" style="background-image: url(&quot;http://wx.qlogo.cn/mmopen/RRKCicPoeiaLyssUowINicD8eW0cdX7iaqicpQDjFZkEibCcureTsm057SwiaB1kTSheKyXwhHVPjeowvgUlLSpQfiaAhfVcjNHkMAB3/0&quot;);"></div>
+    <div class="name">
+        <span>陈芃杉</span>
+    </div>
+    <div class="content">
+        <span>恭喜恭喜，百年好合，早生贵子</span>
+    </div>
+    <div class="timestamp">2017-06-13 17:47</div>
+</div></div>
+        <button data-loading-text="正在加载..." class="btn btn-block btn-loading-more hidden">更多</button>
+    </div>
+    <div class="no-message-tip text-center hidden">
+        <span>还没有留言，抢个沙发吧</span>
+    </div>
+    <footer class="minimized">
+        <form>
+            <div class="form-group">
+                <input name="name" class="form-control" placeholder="姓名">
+            </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control" rows="5" placeholder="请输入你的留言" disabled=""></textarea>
+            </div>
+            <div class="form-group text-center hidden">
+                <button class="btn btn-outline btn-cancel-comment">关闭</button>
+                <button class="btn btn-primary btn-send-comment">发送</button>
+            </div>
+        </form>
+    </footer>
+</div>
+
+<div id="commentmodal" class="modalview">
+    <div class="modalview-head">
+        <header class="header-navbar">
+            <div class="navbar-body">
+                <span class="navbar-title">留言</span>
+            </div>
+            <div class="btn btn-link pull-left" data-dismiss="modalview">
+                <i class="ift ift-arrow-left"></i>
+            </div>
+            <div class="btn btn-link btn-confirm pull-right hidden">
+                <span>保存</span>
+            </div>
+        </header>
+    </div>
+    <div class="modalview-body">
+        <form>
+            <div class="form-group">
+                <input name="name" class="form-control" placeholder="姓名">
+            </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control" rows="5" placeholder="留言"></textarea>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div id="story-share-tip" class="hidden"></div>
+
+
+
+
+
+
+
+
+
+<div id="global-loading-screen" data-loading-tips="" style="opacity: 1;" class="hidden">
+    <div class="img tips-wrapper">
+
+        <div class="tip-text next">
+            <h1><img data-src="images/loadingscreen/xiao-ti-shi.png" src="http://cdn.story.wedfairy.com/assets/images/loadingscreen/xiao-ti-shi.png" class=""></h1>
+            <p>
+                <span>故事看完后，记得留意故事底部的</span>
+                <img data-src="images/loadingscreen/bin-ke-guan-li.png" style="height:1.7em" src="http://cdn.story.wedfairy.com/assets/images/loadingscreen/bin-ke-guan-li.png" class="">
+                <span>和</span>
+                <img data-src="images/loadingscreen/di-tu-dao-hang.png" style="height:1.7em" src="http://cdn.story.wedfairy.com/assets/images/loadingscreen/di-tu-dao-hang.png" class="">
+                <span>哦。</span>
+            </p>
+        </div>
+
+
+        <div class="tip-text active">
+            <h1><img data-src="images/loadingscreen/ba-yin-he-xiao-cha-guan.png" src="http://cdn.story.wedfairy.com/assets/images/loadingscreen/ba-yin-he-xiao-cha-guan.png" class=""></h1>
+            <p>在我们的小茶馆里，你可以跟我们的小伙伴喝喝茶、唠唠嗑、谈谈情、说说爱。</p>
+            <p>添加小盒子的微信ID吧<br>『 bayinhe0319 』</p>
+        </div>
+    </div>
+    <div class="text-wrapper">
+        <div class="img img-contain loading-sprite"></div>
+        <div>正在加载 <span class="progress-text">100</span>%</div>
+    </div>
+    <div class="brand">
+        <span>POWERED BY </span>
+        <span class="ift ift-logo-brand"></span>
+    </div>
+</div>
+
+
+
+
+<script id="template-storyapp-item" type="text/x-handlebars-template">
+    <div class="app-content">
+        <div class="img app-logo" data-bg-src="{{details.logo}}"></div>
+        <div class="action-title">
+            <span>{{details.data.actionTitle}}</span>
+        </div>
+        <div class="app-title">
+            <span>{{title}}</span>
+        </div>
+    </div>
+</script>
+
+<script id="template-message-item" type="text/x-handlebars-template">
+    <div class="avatar img" data-bg-src="{{avatar}}"></div>
+    <div class="name">
+        <span>{{name}}</span>
+    </div>
+    <div class="content">
+        {{#if reply_name}}
+            <span class="reply_to">@{{reply_name}}</span>
+        {{/if}}
+        <span>{{{message}}}</span>
+    </div>
+    <div class="timestamp">{{formatted_date}}</div>
+</script>
+
+
+<script>
+    window['amour-lazy-loading-images'] = true;
+    var BOOST = {};
+    BOOST.THEME_DATA = {"name":"floral","image":"http://7xit4b.com1.z0.glb.clouddn.com/themes/floral.new.1.jpg","title":"花与鸟之诗","description":"","urlroot":"","options":[{"name":"","image":"http://7xit4b.com2.z0.glb.qiniucdn.com/themes/floral.new.jpg","title":"","description":""},{"name":"gold","image":"http://7xit4b.com2.z0.glb.qiniucdn.com/themes/floral-gold.new.jpg","title":"","description":""},{"name":"purple","image":"http://7xit4b.com2.z0.glb.qiniucdn.com/themes/floral-purple.new.jpg","title":"","description":""},{"name":"red","image":"http://7xit4b.com2.z0.glb.qiniucdn.com/themes/floral-red.new.jpg","title":"","description":""},{"name":"darkblue","image":"http://7xit4b.com2.z0.glb.qiniucdn.com/themes/floral-darkblue.new.jpg","title":"","description":""},{"name":"darkgreen","image":"http://7xit4b.com2.z0.glb.qiniucdn.com/themes/floral-darkgreen.new.jpg","title":"","description":""},{"name":"brown","image":"http://7xit4b.com2.z0.glb.qiniucdn.com/themes/floral-brown.new.jpg","title":"","description":""}],"tunings":[{"section":"all","category":"color","name":"white","title":"white","image":"","is_default":true},{"section":"all","category":"type","name":"words","title":"words","image":"","is_default":false},{"section":"all","category":"type","name":"flower","title":"flower","image":"","is_default":true},{"section":"all","category":"type","name":"simple","title":"simple","image":"","is_default":false},{"section":"article","category":"layout","name":"center","title":"center","image":"","is_default":true},{"section":"article","category":"layout","name":"justify","title":"justify","image":"","is_default":false},{"section":"gallery","category":"layout","name":"carousel","title":"carousel","image":"","is_default":true},{"section":"gallery","category":"layout","name":"wall","title":"wall","image":"","is_default":false},{"section":"gallery","category":"layout","name":"slideshow","title":"slideshow","image":"","is_default":false},{"section":"people","category":"layout","name":"blocks","title":"blocks","image":"","is_default":true},{"section":"people","category":"layout","name":"columns","title":"columns","image":"","is_default":false},{"section":"people","category":"layout","name":"rows","title":"rows","image":"","is_default":false},{"section":"people","category":"layout","name":"alternate","title":"alternate","image":"","is_default":false},{"section":"photo","category":"layout","name":"margin","title":"margin","image":"","is_default":true},{"section":"photo","category":"layout","name":"full","title":"full","image":"","is_default":false},{"section":"timeline","category":"layout","name":"center","title":"center","image":"","is_default":false},{"section":"timeline","category":"layout","name":"alternate","title":"alternate","image":"","is_default":false},{"section":"timeline","category":"layout","name":"side","title":"side","image":"","is_default":true},{"section":"viewport","category":"color","name":"blue","title":"blue","image":"","is_default":true},{"section":"viewport","category":"color","name":"red","title":"red","image":"","is_default":false},{"section":"viewport","category":"color","name":"brown","title":"brown","image":"","is_default":false},{"section":"weddinghero","category":"layout","name":"center","title":"center","image":"","is_default":true},{"section":"weddinghero","category":"type","name":"simple","title":"simple","image":"","is_default":true}],"data":{"presets":[{"name":"white","title":"白","tunings":[{"section":"all","color":"red"}]}]}}
+    BOOST.STORY_DATA = {"id":263604,"last_modified":"2017-06-11T19:02:14","time_created":"2017-06-11T16:22:25","name":"ca88eac","title":"闫春晓&张雅婗的婚礼邀请","description":"6岁相遇 \n12岁相识\n相知多年\n26岁\n我们相爱了\n27岁\n我们决定成为彼此一生的依靠","legacy":false,"archived":false,"schema":{"id":21,"name":"weddingnova","title":"新版婚礼","description":"","image":"","data":{},"sections":[{"id":144,"name":"photo","title":"图片","description":"图片","image":"","order":0,"data":{}},{"id":145,"name":"article","title":"文字","description":"文字","image":"","order":1,"data":{}},{"id":146,"name":"timeline","title":"时间轴","description":"时间轴","image":"","order":2,"data":{}},{"id":147,"name":"gallery","title":"相册","description":"相册","image":"","order":3,"data":{}},{"id":148,"name":"people","title":"人物","description":"人物","image":"","order":4,"data":{}},{"id":149,"name":"weddinghero","title":"婚礼信息","description":"婚礼信息","image":"","order":5,"data":{}}],"is_generic":true},"theme":"floral","css":"","js":null,"data":{"loadingMusic":"http://mm.8yinhe.cn/o_19thsuogm4nv1rul15pc11ah16349.mp3","coverImage":"http://up.img.8yinhe.cn/o_1bib5mjfl1s5l82dho19fb1ns6t.jpg","style":{"color":"red"}},"likes":1,"vendor":"","storyEvents":[{"id":1736361,"story":263604,"last_modified":"2017-06-11T16:31:27","name":"weddinghero","title":"婚礼","description":null,"archived":false,"order":0,"data":{"datetime":"2017-07-02T02:08:00.000Z","time":"10:08","brideName":"张雅婗","address":["安新·天王山酒店"],"weekday":"美丽的星期四","date":"2017年7月15日","groomName":"闫春晓","style":{"layout":"center","color":"pink-o","type":"cute"}}},{"id":1736371,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"photo","title":"照片","description":null,"archived":false,"order":1,"data":{"photo":"http://up.img.8yinhe.cn/o_1bi9beo2b1je115748ikoj5nu4j.jpg?imageMogr2/thumbnail/!1000x750r/crop/!1000x750a0a0"}},{"id":1736393,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"gallery","title":"相册","description":null,"archived":false,"order":2,"data":{"photos":["http://up.img.8yinhe.cn/o_1bibd40mhpjt28k2dr2356ul7.jpg","http://up.img.8yinhe.cn/o_1bibd58p1vsr101d1vob1cklilnv.jpg","http://up.img.8yinhe.cn/o_1bibd4d36sdm7rjmsekk08ncf.jpg","http://up.img.8yinhe.cn/o_1bibd5nk5cr2n2t1f331mhp1u1k17.jpg"]}},{"id":1736362,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"article","title":"婚礼开场白","description":"","archived":false,"order":3,"data":{"article":["不是所有的花都代表爱情","除了玫瑰","不是所有的人都适合共度一生","除了那个对的人","如果命运是一个巨大的齿轮","那它一定会再次来到似曾相识的地方","续写它喜欢的美丽童话","今天的新人就是这样的","青梅公主与竹马王子😍","愿得一人心 白首不相离","我们的爱情需要你&们 共同见证"," 🍻🍻🍻"],"title":"有爱不煽情 记得涂防晒😎","style":{"layout":"center","color":"white","type":"flower"}}},{"id":1736382,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"gallery","title":"相册","description":null,"archived":false,"order":4,"data":{"photos":["http://up.img.8yinhe.cn/o_1bias9hsqqea1j9h1fr7tjhvqu7.jpg","http://up.img.8yinhe.cn/o_1bib272k81l7o1m3nrkm3or9re1p.jpg","http://up.img.8yinhe.cn/o_1bib1svd3uifiui1fk31u511dhpj.jpg","http://up.img.8yinhe.cn/o_1bibce0pf13mhpmlje61l2v1nmi7.jpg"],"style":{"layout":"carousel","color":"white","type":"flower"}}},{"id":1736363,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"people","title":"The Couple","description":"","archived":false,"order":5,"data":{"people":[{"name":"新郎","about":["曾经有个音乐梦","辞职开间咖啡馆","改变生活要创业","放下一切去旅行","经历了种种迷茫的他","终于","找到了属于自己的归宿","在她的心里 ","他是个敢想敢做 ","温柔细腻有担当的男孩","值得终身相伴的人"],"avatar":"http://up.img.8yinhe.cn/o_19siluu0mjrk2h418jd116n9mn7.jpg"},{"name":"新娘","about":["上学时的乖乖女","工作中的八爪鱼","习惯了平稳生活的她","从上海到北京","因为爱充满勇气","决定与他去看不一样的世界","在他的心里","能与善良智慧的她度过一生","是最幸福最浪漫的事"],"avatar":"http://up.img.8yinhe.cn/o_19silvb257gi10aptejidq1hdsf.jpg"}],"style":{"layout":"columns","color":"pink-o","type":"cute"}}},{"id":1736364,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"timeline","title":"Le Voyage","description":"","archived":false,"order":6,"data":{"timeline":[{"title":"Hey~my dear friend！🌝","image":"http://up.img.8yinhe.cn/o_1bib6a91bd2feb61u4kl317po17.jpg","text":["哈哈 万万没想到 今天的新郎是你","当你说出“我爱你” 记得我下巴和眼泪哪个先掉下来不😄"]},{"title":"Hey~my fisrt love！😛","image":"http://up.img.8yinhe.cn/o_1bib52o571ovb2m1or116te17q3j.jpg","text":["哈哈 我也没想到 今天的新娘是你 ","当我还不知道什么是爱情的时候 我觉得你长得真好看","当我在寻找自己时 想到爱情这个课题 你浮现在了我的脑海😄"]},{"title":"Hey~my darling！❤️","image":"http://up.img.8yinhe.cn/o_1bib2u97v1gfd1tvr1btj1a2mmo17.jpg","text":["嗨 亲爱的你 今天我们结婚了 ","命运让我们在彼此身边潜伏了15年","为的是让我们更好的陪伴彼此度过余生",""]},{"title":"功臣✈️✈️✈️","image":"http://up.img.8yinhe.cn/o_1bib6l0lbdedsvjoth12k8fte1f.png?imageMogr2/thumbnail/!750x1000r/crop/!750x1000a0a68","text":["在一起的200多天 异地200天","嗖嗖嗖的✈️✈️✈️是我们相爱的见证和功臣","谢谢亲爱的闫先生","用强大的行动力实现了你对我们爱情的许诺","让我体验了最甜蜜的异地恋"]},{"title":"NEVER ENDS","image":"http://up.img.8yinhe.cn/o_1bib22cpl1vlrnn92nt7fa1kct15.jpg","text":["亲爱的婗婗，在一起的时间不算长，在一起做的重大决定却不算少，让我们走到一起的心更加坚定，无论有什么问题摆在我们面前，我们都共同面对，彼此相伴，互相支持，誓言在继续……"]}],"style":{"layout":"center","color":"pink","type":"cute"}}},{"id":1736365,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"photo","title":"THE BIG DAY","description":"","archived":false,"order":7,"data":{"photo":"http://up.img.8yinhe.cn/o_1bib8mre312co1frv15sl1jfo1j31f.jpg","style":{"layout":"margin","color":"white","type":"flower"}}},{"id":1736366,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"article","title":"Wedding","description":"","archived":false,"order":8,"data":{"article":["婚礼的主题是\"陪你度过漫长岁月\"","7月盛夏 青山草坪 ","新郎和新娘将在各位嘉宾的见证下","分别说出一生唯一的一次\"我愿意\"","爱哭的新娘可能会落泪","所以我们跳过了所有煽情环节","调皮的新郎会想办法逗新娘笑的～","我们的婚礼，不会是你见过最盛大的婚礼，不会是最豪华的婚礼，但是，请留心婚礼上的每一个小细节，它们或许不够完美，但却凝结了我们所有的小心思。"],"title":"Wedding","style":{"layout":"center","color":"white","type":"flower"}}},{"id":1736367,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"gallery","title":"纪念相册","description":null,"archived":false,"order":9,"data":{"photos":["http://up.img.8yinhe.cn/o_1bib915gb1mbh60fcee1tj49lq1f.jpg","http://up.img.8yinhe.cn/o_1bib8tsuaan17ct1uge50rp8a17.jpg","http://up.img.8yinhe.cn/o_1bib8tle31i8a1vbv1hea1671l2rv.jpg","http://up.img.8yinhe.cn/o_1bib8tdqi1h7rrnq4ir25brlhn.jpg","http://up.img.8yinhe.cn/o_1bib8ild91k03omrgc5f7psc17.jpg"],"style":{"layout":"carousel","color":"white","type":"flower"}}},{"id":1736369,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"article","title":"祝福我们","description":"","archived":false,"order":10,"data":{"article":["感谢我们的爸爸妈妈，是你们给予了我们一切，给我们最大的支持和无条件的爱～感谢在我们的婚礼筹备中亲人、朋友的鼎力相助～感谢跟张小猫两口子咱们四个的缘分，互相守护二十多年，太神奇～感谢树哥和丸子将在婚礼前一天从日本和上海飞来北京做我们的伴郎伴娘，和你们的友情也让我们相信一切都是命中注定～感谢何总、刘哥你们的前后帮忙、给我们一场梦想中的婚礼～感谢即将前来参加我们婚礼的您，给我们最美好的祝福～"],"title":"Send Wishes","style":{"layout":"center","color":"white","type":"flower"}}},{"id":1736370,"story":263604,"last_modified":"2017-06-11T19:06:02","name":"article","title":"怎么过来","description":"","archived":false,"order":11,"data":{"article":["八仙过海，各显神通，如果您与我们在同一个城市：","公交车493/943路朝凤庵村站，公交车886/743路军都度假村站，下车后沿水库路前行，朝凤北路右转，步行路程约800米。","如果驾车前往，酒店设有停车场。","如果您从其他城市来: 🚄✈️🚢","如果您从国外来: 先回到中国，无论你在巴黎，在伦敦，在纽约，还是在斯德哥尔摩，都请先回国咯～🤗🤗",""],"title":"怎么过来","style":{"layout":"center","color":"white","type":"flower"}}}],"storyApps":[{"id":32257,"name":"15980","title":"地图","story":263604,"details":{"id":2,"name":"map","title":"地图","description":"在故事中添加一个地图，让读者可以查看地点和路线。","logo":"http://up.img.8yinhe.cn/o_19vtbnvdnl1s1gheoat1fufph8d.png","base_url":"http://apps.wedfairy.com/map/","create_url":"http://apps.wedfairy.com/api/maps/map/","data":{"actionTitle":"查看地图"}},"data":null},{"id":32258,"name":"12845","title":"宾客","story":263604,"details":{"id":1,"name":"rsvp","title":"宾客","description":"在故事中添加一个“我要参加”的功能，统计出席的人数。","logo":"http://up.img.8yinhe.cn/o_19vtbnvdmi1d1n0a18kl1lkeu1ca.png","base_url":"http://apps.wedfairy.com/rsvp/","create_url":"http://apps.wedfairy.com/api/rsvps/rsvp/","data":{"actionTitle":"我要参加","requireLogin":true}},"data":null}],"storyTags":[{"name":"wedding","title":"婚礼","category":"story"}]}
+    var WX_CONFIG = {"appId":"wxc7cc3f069aaa80d6","timestamp":"1498201522","nonceStr":"vr2lr8kkxgmygb9","signature":"ae540d81b330004e9eaba79b8c1604d1bb2b44c3","jsApiList":["onMenuShareTimeline","onMenuShareAppMessage","chooseImage","uploadImage","previewImage"]}
+</script>
+
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/vendor/jquery-2.1.1.min.js"></script>
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/vendor/underscore.min.js"></script>
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/vendor/handlebars.min.js"></script>
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/vendor/backbone.min.js"></script>
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/vendor/bootstrap.min.js"></script>
+
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/plugins/fastclick.js"></script>
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/plugins/moment.js"></script>
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/plugins/moment.zh-cn.js"></script>
+
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/amour.js?v=1497930582938"></script>
+
+<script src="http://cdn.story.wedfairy.com/assets/javascripts/plugins/ripple.js?v=1497930582938"></script>
+<script src="http://cdn.story.wedfairy.com/assets/javascripts/amour-mobile.js?v=1497930582938"></script>
+
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/plugins/jquery.qrcode.min.js"></script>
+
+
+
+
+
+<script crossorigin="anonymous" src="http://cdn.static.wedfairy.com/javascripts/require.js"></script>
+
+    <script src="http://cdn.story.wedfairy.com/assets/themes/floral/main-built.js?v=1497930582938"></script>
+
+
+
+<script src="http://cdn.story.wedfairy.com/assets/javascripts/storytell-built.js?v=1497930582938"></script>
+
+
+
+
+<script></script>
+
+
+
+</body></html>
